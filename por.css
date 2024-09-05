@@ -1,0 +1,43 @@
+body {
+    background-color: steelblue;
+}
+.lista{
+    list-style-type: none;
+}
+
+nav ul> :first-child {
+    color: blueviolet;
+}
+
+nav ul> :nth-child(3) {
+    font-size: 20px;
+}
+
+nav ul > :last-child:hover{
+    color: red;
+}
+.name{
+    color: darkgoldenrod;
+}
+.contacto{
+    background-color: chartreuse;
+}
+.social > :nth-child(3){
+    background-color: #ff5566;
+}
+img{
+    border-radius: 50%;
+    border: #FF8899;
+    border-color: aquamarine;
+    border-style: solid;
+}
+button{
+    border: none;
+    border-radius: 50%;
+    background-color: #ff5566;
+    width: 120px;
+    height: 60px;
+    font-style: italic;
+    font-size: 18px;  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
