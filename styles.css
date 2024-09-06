@@ -1,0 +1,59 @@
+h2, h3{
+    font-size: 18px;
+}
+main{
+    color:#333;
+}
+.highlight{
+    color: #ff0000;
+}
+#important-info{
+    background-color: #ffffe0;
+}
+a:hover{
+    color: #008000;
+}
+a:active{
+    color: #ffa500;
+}
+input:focus{
+    border: 2px, solid red;
+    outline: none;
+}
+section > :first-child{
+    margin-top: 20px;
+}
+section > :last-child{
+    background-color: #f0f0f0;
+}
+section h2{
+    color: #0055cc;
+}
+header > nav{
+    background-color: #eaeaea;
+}
+h2 + p {
+    color: #666;
+}
+h2 ~ p {
+    font-style: italic;
+}
+p{
+    color: #008000;
+}
+aside {
+    color: #0055cc !important;
+}
+div{
+    width: 400px;
+    height: 200px;
+    border: 2px, solid, #000;
+}
+img{
+    width: 300px;
+    border: 3px solid #333;
+}
+video{
+    width: 500px;
+    height: 280px;
+}
