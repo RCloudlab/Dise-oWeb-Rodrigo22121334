@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    align-items: center;
+}
+.profile-card{
+    text-align: center;
+    background-color: #fff;
+    width: 210px;
+    height: auto;
+    border-radius: 5%;
+}
+.profile-img{
+    margin-top: 1rem;
+    border-radius: 50%;
+    border: 3px solid rgb(48, 107, 254);
+}
+.profile-button{
+    border: none;
+    background-color: rgb(48, 107, 254);
+    color: #fff;
+    border-radius: 15px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top:.4rem;
+    padding-bottom: .4rem;
+    margin-bottom: 1.3rem;
+    font-size: 10px;
+}
+.profile-content{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-family: sans-serif;
+}
+.profile-bio{
+    margin-top: -10px;
+    font-size: 14.5px;
+    color: gray;
+}
