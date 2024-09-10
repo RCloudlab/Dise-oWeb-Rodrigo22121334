@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+*{
+    text-decoration: none;
+}
+header{
+    margin:none;
+}
+
+.nav{
+    padding: 10px 20px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.nav__list__logo > a > img {
+    width: 100px;
+    border-radius: 10%;
+    margin-right: 80px;
+}
+.nav__list__logo{
+    list-style: none;
+    display: inline-block;
+}
+.nav__list__links{
+    display: inline-block;
+}
+.nav__item{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+.nav__item >a {
+    color: #000;
+}
+.nav__item > a:hover{
+    color: #93910a;
+}
+.header__content{
+    background: url("https://static.vecteezy.com/system/resources/previews/007/251/342/non_2x/4k-hd-wallpaper-for-computer-desktop-with-dark-aesthetic-and-dope-trippy-wallpapers-for-cute-girls-photo.jpg");
+    background-size: cover;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.header__title{
+    display: inline-block;
+    padding: 5px;
+    color: #fff;
+}
+.header__description{
+    color: #fff;
+}
+
+.header__buttons{
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.header__button{
+    background-color: #fff;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.section__home{
+    background: linear-gradient(to right,#a66d03fd, #ffa6009f);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    margin-top: 15px;
+    text-align: center;
+    padding: 30px;
+}
+.section__content:hover {
+    transform: scale(1.01);
+    text-shadow: 10px 10px #fed400;
+    transition: text-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+.section__title{
+    font-size: 60px;
+    font-family: 'Protest', sans-serif;
+}
+.section__description{
+    font-family: 'Protest', sans-serif;
+}
+.section__projects{
+    margin-top: 35px;
+    background: radial-gradient(#a66d03fd,#ffa6009f);
+    text-align: center;
+    border-radius: 20px;
+}
+.section__projects > h2{
+    padding-top: 30px;
+    font-size: 40px;
+    font-family: 'Protest', sans-serif;
+}
+.project_list{
+    display: inline-block;
+    box-sizing: border-box;
+}
+.project > img{
+    height: 350px;
+    width: 700px;
+    border-radius: 10px;
+    background: linear-gradient();
+}
+.project{
+    display: inline-block;
+    background-color: #f5f4f4;
+    border-radius: 10px;
+    height: 450px;
+    width: 700px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+.project__description{
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: 'Protest', sans-serif;
+}
+.project:hover{
+    transform: scale(1.04) ;
+    transition: transform 150ms ease-in-out ;
+    background: linear-gradient(rgb(255, 166, 0), rgb(246, 208, 148));
+}
+.project>img:hover{
+    filter: brightness(80%);
+}
