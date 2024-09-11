@@ -1,0 +1,97 @@
+body{
+    background-color: aliceblue;
+    margin: 0px;
+}
+.card__persons>h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(182, 0, 254);
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card__person{
+    border-radius: 10px;
+    border: 1px solid rgb(182, 0, 254);
+    background-color: #fff;
+    margin: 40px;
+    padding: 20px;
+    padding-bottom: 10px;
+    width: 300px;
+}
+.card__images{
+    text-align: center;    
+}
+.images{
+    display:flex;
+    justify-content: center;
+}
+.card__img{
+    margin: 40px;
+}
+.card__img>img{
+    border: 1px solid rgb(182, 0, 254);
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+}
+.card__images>h2{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(182, 0, 254);
+    text-align: center;
+}
+.form__contact{
+    background-color: #fff;
+    margin: auto;
+    margin-left: 400px;
+    margin-right: 400px;
+    border: 1px solid rgb(182, 0, 254);
+    border-radius: 10px;
+}
+.form__contact>h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgb(182, 0, 254);
+    text-align: center;
+    margin: 30px;
+    margin-top: 60px;
+}
+.dates{
+    margin: 20px;
+    display: grid;
+    font-family: sans-serif;
+}
+.dates>input{
+  border: 1px solid lightgrey;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  height: 20px;
+}
+.dates>textarea{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.dates>label{
+    margin-bottom: 5px;
+}
+.btn_send{
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(182, 0, 254);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 80px;
+    color: #fff;
+}
+footer{
+    margin-top: 40px;
+    background-color: rgb(123, 4, 170);
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
