@@ -1,0 +1,44 @@
+/* Flex */
+
+/*
+    1. Flex container - Padre
+    2. Flex items - Hijos
+
+    Se aplican al padre (flex container)
+    X - justify-content
+        - center
+        - space-between
+        - space-evenly
+        - space-around
+        - flex-end
+        - flex-star
+    Y - align-items
+
+    Hijos
+     -align-self
+*/
+.container{
+    border: 5px solid red;
+    padding: 5px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap; /* Manda a los elemensot abajo si no caben por el width*/
+    flex-direction: column; /* Si es en fila o en columna */
+}
+.item{
+    text-align: center;
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+}
+.item_one{
+    background-color: blue;
+    /*align-self: center;*/
+}
+.item_two{
+    background-color: green;
+}
+.item_three{
+    background-color: blueviolet;
+}
