@@ -16,20 +16,123 @@ html, body{
     height: 100%;    
     display: flex;
 }
-
-
 aside{
     width: 20%;
-    border: 1px solid green;
+    border: 1px solid var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-
-
-
-
-
-.main__container{
+.logo{
+    padding: 1rem;
+    width: 90%;
+    height: 8%;
+    font-size: 28px;
+    font-weight: 600;
+}
+.logo>span{
+    margin-left: 2rem;
+}
+.li2{
     
+}
+.aside__nav{
+    width: 85%;
+    height: 91%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 10px;
+}
+.nav__buttons{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+.nav__buttons>button{
+    background-color: var(--white);
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    font-size: 13px;
+    padding: 12px 1rem;
+    width: 200px;
+}
+.nav__buttons>button:nth-child(2){
+    background-color: var(--blue);
+    color: var(--white);
+}
+.nav__buttons>button>span{
+    font-size: 20px;
+}
+.nav__actions{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.section{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    color: var(--light-gray);
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.last{
+    margin-top: 10px;
+}
+.action{
+    margin-left: 15px;
+    margin-bottom: 8px;
+    font-weight: 550;
+    font-size: 13px;
+    display: flex; 
+    align-items: center;
+    gap: 7px;
+}
+.action>span{
+    padding: 3px;
+    font-size: 17px;
+    background-color: var(--super-light-gray);
+    border-radius: 100%;
+}
+.nav__others{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 80%;
+}
+.order{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+    font-size: 13px;
+    color: var(--gray);
+}
+.order>img{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+.order>p>strong{
+    color: var(--black);
+}
+.nav__logout{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.main__container{
     width: 80%;
     height: 100%;
     display: flex;
@@ -37,6 +140,7 @@ aside{
 }
 .nav__container{
     border: 1px solid var(--light-gray);
+    border-left: none;
     width: 100%;
     height: 20%;
     display: flex;
