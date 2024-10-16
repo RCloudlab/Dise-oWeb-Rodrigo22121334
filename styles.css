@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 :root{
-    --blue: #0c04fa;
+    --blue: #156bff;
     --white:#fff;
     --black: #000;
     --gray: #808080;
@@ -34,7 +34,13 @@ aside{
     margin-left: 2rem;
 }
 .li2{
-    
+    width: 25px;
+    height: 3px;
+    background-color: var(--blue);
+    border-radius: 25px;
+    position: absolute;
+    top: 45px;
+    left: 100px;
 }
 .aside__nav{
     width: 85%;
@@ -128,6 +134,7 @@ aside{
 }
 .nav__logout{
     margin-top: 20px;
+    width: 70%;
     display: flex;
     align-items: center;
     gap: 5px;
