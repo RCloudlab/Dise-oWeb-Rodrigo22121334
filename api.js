@@ -18,7 +18,7 @@ const fetchApiData = async () => {
     locationDom.textContent = character.location.name
     firstSeenInDom.textContent = character.origin.name
 
-    for (let i = 2; i < 8; i++) {
+    for (let i = 1; i < 8; i++) {
         const ram = Math.floor(Math.random() * 300)
         const data = await fetch(`https://rickandmortyapi.com/api/character/${ram}`)
         const json = await data.json()
