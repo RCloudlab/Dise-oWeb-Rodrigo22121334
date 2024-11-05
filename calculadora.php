@@ -24,10 +24,14 @@
             $resualtado = pow($num1, $num2);  
             echo"<h1>El resultado de la potencia es $resualtado</h1>";
         }elseif($operacion == "!"){
-            $resualtado = sqrt($num1);
-            $resualtado2 = sqrt($num2);
-            echo"<h1>El resultado de la la raiz del primer numero es $resualtado</h1>";
-            echo"<h1>El resultado de la la raiz del segundo es $resualtado2</h1>";
+            if($num1 < 0 || $num2 < 0 ){
+                echo"<h1>Revisa que tus numeros sean positivios, no podemos sacar raices de numero negativos</h1>";
+            }else{
+                $resualtado = sqrt($num1);
+                $resualtado2 = sqrt($num2);
+                echo"<h1>El resultado de la la raiz del primer numero es $resualtado</h1>";
+                echo"<h1>El resultado de la la raiz del segundo es $resualtado2</h1>";
+            }
         }
 
     }else{
